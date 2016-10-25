@@ -260,6 +260,7 @@ the \"Gen RGB\" column in solarized-definitions.el to improve them further."
                 ;; comint
                 (comint-highlight-prompt (,@fg-blue))
                 ;; compilation
+                (compilation-error (,@fmt-bold ,@fg-red))
                 (compilation-info (,@fmt-bold ,@fg-green))
                 (compilation-warning (,@fmt-bold ,@fg-orange))
                 ;; custom
